@@ -1,4 +1,4 @@
-FROM python:3.14.0a6 AS builder
+FROM python:3.14.0rc2 AS builder
 
 RUN pip wheel psycopg2
 
